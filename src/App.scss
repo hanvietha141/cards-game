@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+
+
+  h1 {
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    font-size: 2rem;
+    font-weight: 800;
+    padding: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: #fff;
+    border-radius: 3px;
+  }
+
+  h2 {
+    color: #fff;
+    position: relative;
+    right: calc( 20% - 14px );
+    top: 40px;
+  }
+
+}
+
+.card-grid {
+  display: grid;
+  margin-top: 40px;
+  grid-template-columns: repeat(4, 10vw);
+  grid-gap: 20px;
+  justify-content: center;
+
+  img {
+    width: 100%;
+
+  }
+}
